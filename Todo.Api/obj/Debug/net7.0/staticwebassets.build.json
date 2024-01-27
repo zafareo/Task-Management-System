@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "AhilQaqDx8pErUBebhk91+8Nv5b3vo7aAIMuhTYqMT4=",
+  "Source": "Todo.Api",
+  "BasePath": "_content/Todo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Todo.Api\\wwwroot",
+      "Source": "Todo.Api",
+      "ContentRoot": "C:\\Users\\HP\\source\\repos\\Todo.Api\\Todo.Api\\wwwroot\\",
+      "BasePath": "_content/Todo.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

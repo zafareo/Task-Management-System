@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Todo.Api", "Todo.Api\Todo.Api.csproj", "{B9B2BC37-5088-4443-8318-CB23CF684ED1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{2D721B1D-5AD1-45C4-96D0-1B0052597F8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{B228B1D5-E754-49C9-B661-A7F3E59A3C0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{F9F6E7C2-8CF3-48B1-95BD-B08FF2C1ADA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.BlazorWasm.Server", "Todo.BlazorWasm\Server\Todo.BlazorWasm.Server.csproj", "{A526C3E2-A931-498A-B313-8D3F7AE48780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.BlazorWasm.Client", "Todo.BlazorWasm\Client\Todo.BlazorWasm.Client.csproj", "{0BD1CBAB-668B-4BFF-9A22-426CFB6DEBEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.BlazorWasm.Shared", "Todo.BlazorWasm\Shared\Todo.BlazorWasm.Shared.csproj", "{755C7C6C-E8CD-42EE-A810-9CB5CA7F189F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9B2BC37-5088-4443-8318-CB23CF684ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B2BC37-5088-4443-8318-CB23CF684ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B2BC37-5088-4443-8318-CB23CF684ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B2BC37-5088-4443-8318-CB23CF684ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D721B1D-5AD1-45C4-96D0-1B0052597F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D721B1D-5AD1-45C4-96D0-1B0052597F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D721B1D-5AD1-45C4-96D0-1B0052597F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D721B1D-5AD1-45C4-96D0-1B0052597F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B228B1D5-E754-49C9-B661-A7F3E59A3C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B228B1D5-E754-49C9-B661-A7F3E59A3C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B228B1D5-E754-49C9-B661-A7F3E59A3C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B228B1D5-E754-49C9-B661-A7F3E59A3C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F6E7C2-8CF3-48B1-95BD-B08FF2C1ADA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F6E7C2-8CF3-48B1-95BD-B08FF2C1ADA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F6E7C2-8CF3-48B1-95BD-B08FF2C1ADA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F6E7C2-8CF3-48B1-95BD-B08FF2C1ADA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A526C3E2-A931-498A-B313-8D3F7AE48780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A526C3E2-A931-498A-B313-8D3F7AE48780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A526C3E2-A931-498A-B313-8D3F7AE48780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A526C3E2-A931-498A-B313-8D3F7AE48780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD1CBAB-668B-4BFF-9A22-426CFB6DEBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD1CBAB-668B-4BFF-9A22-426CFB6DEBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD1CBAB-668B-4BFF-9A22-426CFB6DEBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD1CBAB-668B-4BFF-9A22-426CFB6DEBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755C7C6C-E8CD-42EE-A810-9CB5CA7F189F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755C7C6C-E8CD-42EE-A810-9CB5CA7F189F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755C7C6C-E8CD-42EE-A810-9CB5CA7F189F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755C7C6C-E8CD-42EE-A810-9CB5CA7F189F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01609856-92EA-4B23-8B69-F269BA0BC86B}
+	EndGlobalSection
+EndGlobal
